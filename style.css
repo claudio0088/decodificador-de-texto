@@ -54,12 +54,7 @@ body {
 
 .container__texto{
     display: flex;
-    justify-content: center;
-    
-    
-    
-    
-
+    justify-content: center;    
    
 }
 
@@ -204,10 +199,7 @@ body {
         /*visibility: hidden;*/
         
 
-    }
-    .container__texto__area {
-        
-    }
+    }    
     .container__texto__alerta {
         position: relative;
         top: 150px;
