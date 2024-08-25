@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&display=swap');
 
 :root {
-    --cor1--:#240046 ;
-    --cor2--:#9d4edd49;
-    --cor3--:white;
-    --cor4--:#C77DFF;
+    --cor1--:#C1CAD7;
+    --cor2--:#051D48;
+    --cor3--:#252525;
+    --cor4--:#020C19;
+    
+    
 }
 
 *{
@@ -23,21 +25,22 @@ body {
     justify-content:center;
     align-items: center;    
     height: 55px;
+    background-color:var(--cor4--) ;
     color:var(--cor1--);
-    position: relative;
+    /*position: relative;
     top: 10px;
-    right: 20%;
+    right: 20%;*/
     
 }
 
 
-.cabecalho img {
+/*.cabecalho img {
 
    width: 70px;    
    margin-left: 10px;    
    padding-top: 10px;
     
-}
+}*/
 
 .container {
     display: flex;
@@ -70,9 +73,8 @@ body {
     background-color: transparent;
     outline: none;
     margin-top: 98px;
-    width: 550px;
-           
-    font-size:32px;
+    width: 90%;        /*550px*/ 
+    font-size:2rem;
     
 }
 
@@ -90,6 +92,8 @@ body {
     width: 228px;
     height: 18px;
     
+    color: var(--cor1--);
+        
      
 }
 
@@ -99,8 +103,8 @@ body {
     flex-direction: row ;
     align-items: end;
     justify-content: center;
-    height: 370px; /* Altura da viewport para centralizar verticalmente */
-    gap: 20px;
+    height: 370px;/*370px*/
+    gap: 3%;/*20px*/
         
 }
 
@@ -109,33 +113,27 @@ body {
 .button__criptografar {
     background-color:var(--cor1--) ;
     color:var(--cor3--);
-    width: 280px;
-    height: 67px;
-    border-radius: 24px;
+    width: 60%;/*280*/
+    height: 16%;/*67px*/
+    border-radius: 1.5rem;
     border: none;
         
 }
 
-.button__criptografar:hover {
-    background-color:var(--cor2--);
-    color: var(--cor1--);
-}
+
 
 .button__descriptografar{
-    background-color: var(--cor2--);
+    background-color: var(--cor3--);
     color:var(--cor1--);
-    width: 280px;
-    height: 67px;
-    border-radius: 24px;
+    width: 60%;
+    height: 16%;
+    border-radius: 1.5rem;
     box-shadow: none;
     border: none;
     
 }
 
-.button__descriptografar:hover {
-    background-color: var(--cor1--);
-    color: var(--cor3--);
-} 
+
 
 .background-output {
     width: 400px;
@@ -168,7 +166,7 @@ body {
     background-color: transparent;
     outline: none;
     text-align: center;
-    font-size: 32px;
+    font-size: 2rem;
     
 
 }
@@ -187,7 +185,45 @@ body {
 
 }
 
-.btn-copiar:hover {
-    background-color: var(--cor2--);
-    color: var(--cor1--);
+
+
+
+@media (max-width:900px){
+    .container {
+        flex-direction: column;
+    }
+    .background-output {
+        width: 85%;
+        height: 140px;        
+        font-size: 1rem;
+        
+        
+    }
+    .esconder {
+        display: none;
+        /*visibility: hidden;*/
+        
+
+    }
+    .container__texto__area {
+        
+    }
+    .container__texto__alerta {
+        position: relative;
+        top: 150px;
+        left:2%;
+    }
+    .container__button{        
+        margin: 20px;
+    }
+        
+     .btn-copiar {
+        position: relative;
+        top:3px;
+     }   
+    
+   
+
+    
+    
 }
