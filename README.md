@@ -55,6 +55,8 @@
 </ul>
 
 <h2>Tecnologias Utilizadas</h2>
-<img src="https://cdn-icons-png.flaticon.com/128/5968/5968267.png" alt="HTML"></img>
-<img src="https://cdn-icons-png.flaticon.com/128/5968/5968242.png" alt="CSS"></img>
-<img src="https://cdn-icons-png.flaticon.com/128/5968/5968292.png" alt="JavaScript"></img>
+<p>
+    <img src="https://cdn-icons-png.flaticon.com/128/5968/5968267.png" alt="HTML"></img>
+    <img src="https://cdn-icons-png.flaticon.com/128/5968/5968242.png" alt="CSS"></img>
+    <img src="https://cdn-icons-png.flaticon.com/128/5968/5968292.png" alt="JavaScript"></img>
+</p>
